@@ -26,5 +26,15 @@ class TestMiniTestPractice < MiniTest::Unit::TestCase
   assert_equal true, @my_class.check_number?(1000)
   assert_equal true, @my_class.check_number?(8888)
   end
+
+#6-4 test_enough_length?
+  def test_enough_length?
+  assert_equal false, @my_class.enough_length?('no')
+  assert_equal true, @my_class.enough_length?('yes')
+  assert_equal true, @my_class.enough_length?('olivia')
+  assert_equal false, @my_class.enough_length?('olivia is me!')
+  assert_equal true, @my_class.enough_length?('olivia!!')
+  assert_equal false, @my_class.enough_length?('!')
+  end
   
 end

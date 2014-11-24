@@ -20,5 +20,14 @@ module MiniTestPractice
      end
    end
 
+# 6-4 enough_length?
+  def enough_length?(str)
+    if str.length >= 3 and str.length <=8
+    return true
+    else
+    return false
+    end
+   end
+
   end
 end
