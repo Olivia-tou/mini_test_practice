@@ -1,6 +1,7 @@
 # MiniTestPractice
 
-EG OF MiniTest
+ MiniTest
+ 6-1 ~ 6-7
 
 ## Installation
 
@@ -20,12 +21,10 @@ Or install it yourself as:
 
 ## Usage
 
-MiniTest
+1.MiniTest
+2.Guard
+3.Travis CI
+Information
 
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/mini_test_practice/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1.Git Hub ( https://github.com/Olivia-tou/a1425bt )
+2. Travis CI (https://travis-ci.org/Olivia-tou/mini_test_practice)
