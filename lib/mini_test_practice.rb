@@ -6,7 +6,11 @@ module MiniTestPractice
       if value % 2 == 0
       return false
       else
-      return true
+        if value / 1 == value 
+        return true
+        else
+        return false
+        end
       end
     end
   end
