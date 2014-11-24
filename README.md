@@ -27,8 +27,8 @@ Or install it yourself as:
 
 3.Travis CI
 
-##Information
+## Information
 
-1.Git Hub ( https://github.com/Olivia-tou/a1425bt )
+1. Git Hub ( https://github.com/Olivia-tou/a1425bt )
 
-2. Travis CI (https://travis-ci.org/Olivia-tou/mini_test_practice)
+2.Travis CI (https://travis-ci.org/Olivia-tou/mini_test_practice)
