@@ -36,5 +36,12 @@ class TestMiniTestPractice < MiniTest::Unit::TestCase
   assert_equal true, @my_class.enough_length?('olivia!!')
   assert_equal false, @my_class.enough_length?('!')
   end
-  
+
+#6-5 test_divide
+  def test_divide
+  assert_equal 1, @my_class.divide(1,1)  
+  assert_equal 3, @my_class.divide(6,2)
+  assert_equal 'error!', @my_class.divide(9,0)
+  end
+
 end

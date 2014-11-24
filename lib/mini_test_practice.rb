@@ -27,7 +27,17 @@ module MiniTestPractice
     else
     return false
     end
-   end
+  end
+  
+# 6-5 divide
+  def divide(value1,value2) 
+       if value2 != 0       
+          result = value1 / value2
+       return result
+       else 
+       return 'error!'  
+       end
+  end
 
   end
 end
