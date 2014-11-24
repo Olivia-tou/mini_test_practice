@@ -14,5 +14,6 @@ class TestMiniTestPractice < MiniTest::Unit::TestCase
     assert_equal false, @my_class.odd?(100)
     assert_equal true, @my_class.odd?(13)
     assert_equal false, @my_class.odd?(0)
+    assert_equal false, @my_class.odd?(2.3)
   end
 end
