@@ -10,5 +10,15 @@ module MiniTestPractice
       return false
       end
     end
+
+ # 6-3 check_number?
+   def check_number?(value)
+     if value >= 1000 and value <=9999 and value % 2 == 0
+     return true
+     else
+     return false
+     end
+   end
+
   end
 end
