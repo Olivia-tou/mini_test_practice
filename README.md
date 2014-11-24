@@ -1,7 +1,6 @@
 # MiniTestPractice
 
- MiniTest
- 6-1 ~ 6-7
+ MiniTest:6-1 ~ 6-7
 
 ## Installation
 
@@ -29,6 +28,6 @@ Or install it yourself as:
 
 ## Information
 
-1. Git Hub ( https://github.com/Olivia-tou/a1425bt )
+1.Git Hub ( https://github.com/Olivia-tou/a1425bt )
 
 2.Travis CI (https://travis-ci.org/Olivia-tou/mini_test_practice)
