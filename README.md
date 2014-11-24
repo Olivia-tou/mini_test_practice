@@ -22,9 +22,13 @@ Or install it yourself as:
 ## Usage
 
 1.MiniTest
+
 2.Guard
+
 3.Travis CI
-Information
+
+##Information
 
 1.Git Hub ( https://github.com/Olivia-tou/a1425bt )
+
 2. Travis CI (https://travis-ci.org/Olivia-tou/mini_test_practice)
