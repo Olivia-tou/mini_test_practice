@@ -2,6 +2,8 @@
 
  MiniTest:6-1 ~ 6-7
 
+ 学修番号：14745125
+
 ## Installation
 
 Add this line to your application's Gemfile:
