@@ -44,6 +44,9 @@ class TestMiniTestPractice < MiniTest::Unit::TestCase
     assert_equal 1, @my_class.divide(1,1)  
     assert_equal 3, @my_class.divide(6,2)
     assert_equal 'error!', @my_class.divide(9,0)
+    ex = assert_raises(IndexError)do
+       [].fetch(1)  
+    end
   end
 
 #6-6 fizz_buzz
@@ -61,5 +64,6 @@ class TestMiniTestPractice < MiniTest::Unit::TestCase
     end
 
     assert_equal "Hello!\n", out
+    assert_equal nil, @my_hello.hello
   end
 end

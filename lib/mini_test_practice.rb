@@ -31,10 +31,10 @@ module MiniTestPractice
   
 # 6-5 divide
   def divide(value1,value2) 
-       if value2 != 0       
-          result = value1 / value2
+       begin       
+       result = value1 / value2
        return result
-       else 
+       rescue
        return 'error!'  
        end
   end
@@ -48,7 +48,7 @@ end
 # 6-7 Hello
 class MyHello
     def hello
-    puts  'Hello!'
+    puts "Hello!"
     end
 end
 end
