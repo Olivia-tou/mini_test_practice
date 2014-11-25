@@ -48,7 +48,7 @@ end
 # 6-7 Hello
 class MyHello
     def hello
-      'Hello!'
+    puts  'Hello!'
     end
 end
 end
