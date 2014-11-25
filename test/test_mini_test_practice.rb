@@ -55,10 +55,11 @@ class TestMiniTestPractice < MiniTest::Unit::TestCase
   end
  
 #6-7 Hello 
-#  require 'open3'
   def test_my_hello
-    #stdout = Open3.popen3('mini_test_practice/lib/mini_test_practice.rb')
-    assert_equal nil, @my_hello.hello
-    #assert_equal "Hello!\n", stdout.gets
+    out,err = capture_io do
+       puts "Hello!"
+    end
+
+    assert_equal "Hello!\n", out
   end
 end
