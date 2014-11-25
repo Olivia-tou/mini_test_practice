@@ -1,8 +1,10 @@
+# -*- coding: utf-8 -*-
 require 'minitest_helper'
 
 class TestMiniTestPractice < MiniTest::Unit::TestCase
   def setup
     @my_class = MiniTestPractice::MyClass.new
+    @my_hello = MiniTestPractice::MyHello.new
   end
   
   def test_that_it_has_a_version_number
@@ -50,5 +52,10 @@ class TestMiniTestPractice < MiniTest::Unit::TestCase
     assert_equal 'Buzz', @my_class.fizz_buzz(25)
     assert_equal 'FizzBuzz', @my_class.fizz_buzz(15)
     assert_equal "", @my_class.fizz_buzz(22)
+  end
+ 
+#6-7 Hello 
+  def test_my_hello
+    assert_equal 'Hello!', @my_hello.hello
   end
 end

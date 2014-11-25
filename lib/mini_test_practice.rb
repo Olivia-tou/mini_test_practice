@@ -39,10 +39,16 @@ module MiniTestPractice
        end
   end
 
-#6-6 fizz_buzz
+# 6-6 fizz_buzz
    def fizz_buzz(i)      
    return "Fizz"[i%3*4,4].to_s + "Buzz"[i%5*4,4].to_s
    end 
+end
 
-  end
+# 6-7 Hello
+class MyHello
+    def hello
+      'Hello!'
+    end
+end
 end
